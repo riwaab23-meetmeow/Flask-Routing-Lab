@@ -2,9 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>ebay's special shop</title>
+    <h1>hehe</h1>
 </head>
 <body>
+	<p>only cool people see this website</p>
+	<h3>explore the categories</h3> 
 
+
+<div>
+<a href={{ url_for('cart') }}>cart</a>
+</div>
+<div>
+<a href={{ url_for('product') }}>product</a>
+</div>
+
+	<section>
+		<h2>music stuff </h2>
+		<p>weeeeeeweeeeee</p>
+    	<img src="static/drum.jpeg"  width="500" 
+        height="300">
+        <form action={{url_for('cart')}}>
+    		<input type="submit" value="AYOOl!" />
+		</form>
+        
+
+
+       </section>
+
+	<section>
+		<h2>money</h2>
+		<p>we sell real money</p>
+
+		<img src="static/money.webp"  width="500" 
+     height="300">
+     
+
+
+	</section>
+
+
+	<section>
+		<h2>vivviennewestwood</h2>
+		<p>the one and only</p>
+		<img src="static/veve.jpg"  width="500" 
+     height="300">
+     	<form action={{url_for('cart')}}>
+    		<input type="submit" value="Add to our human-selling cart!" />
+		</form>
+
+	</section>
+
+
+
+
+
+
+
+   
 </body>
 </html>
